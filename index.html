@@ -9,22 +9,21 @@
     <title>Nintendo Character Quiz</title>
 </head>
 <body>
-    <header role="banner">
-        <div class="col-4">
-            <a href="index.html">
-                <img class="logo" src="pedastal.png" alt="controller icon">
-            </a>
-        </div>
-        <div class="col-8">
-                <ul>
-                  <li>Question: <span class="questionNumber">0</span>/10</li>
-                  <li>Score: <span class="score">0</span></li>
-                </ul>
-              </div>
+    <header role="banner" id="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo" src="pedastal.png" alt="controller icon">
+                    </a>
+                </div>
+                <div class="score">
+                        <ul>
+                          <li>Question: <span class="questionNumber">0</span>/10</li>
+                          <li>Score: <span class="score">0</span></li>
+                        </ul>
+                      </div>
     </header>
-
-    <div class="container">
-        <div id="question-container" class="">
+    <div class="quiz-container">
+        <div id="question-container">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
@@ -38,6 +37,6 @@
             <button id="submit-btn" class="submit-btn btn">Submit</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
-</div>  
+    </div>  
 </body>
 </html>
