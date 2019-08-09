@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link href="styles.css" rel="stylesheet" type="text/css" />
+                <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+                <title>Nintendo Character Quiz</title>
+            </head>
+<body>
+    <header role="banner" id="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo" src="pedastal.png" alt="controller icon">
+                    </a>
+                </div>
+                <div class="score">
+                        <ul>
+                          <li>Question: <span class="questionNumber">0</span>/10</li>
+                          <li>Score: <span class="score">0</span></li>
+                        </ul>
+                      </div>
+    </header>
+    <div class="quiz-container">
+            <div id="question-container">
+                <div id="question">You probably know of Mario in the 'Super Mario Bros.' games, but what is the name of Mario's taller brother who normally wears green?</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn correct">Luigi (Correct Answer picked)</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn wrong">Bowser (Incorrect answer selected)</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+            <div class="fun_fact">
+                Fun Fact: The last name of the current head for Nintendo of America is "Bowser".
+            </div>
+
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn hide">Start</button>
+                <button id="submit-btn" class="submit-btn btn hide">Submit</button>
+                <button id="next-btn" class="next-btn btn">Next</button>
+            </div>
+            <div class="wire_nav">
+                <a href="start_screen.html">Start</a>
+                <a href="index.html">questions</a>
+                <a href="answer.html">answer</a>
+                <a href="results.html">results</a>
+            </div>
+</body>
+</html>

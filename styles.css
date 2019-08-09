@@ -102,3 +102,37 @@ header ul {
 .hide {
     display: none;
 }
+
+.wire_nav, .opening {
+    width: 800px;
+    max-width: 80%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+    margin: 10% auto;
+}
+
+.endscore {
+    width: 800px;
+    max-width: 80%;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+    margin: 10% auto;
+}
+
+.fun_fact {
+    padding: 20px;
+    margin: 20px;
+    background-color: beige;
+    color: black;
+}
+
+#question {
+    background-color: black;
+    color: green;
+}
