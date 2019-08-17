@@ -1,6 +1,6 @@
 //source for images and vars for quiz
-const correctAnswerIcon = "mario.jpg";
-const wrongAnswerIcon= "bowser.jpg";
+const correctAnswerIcon = "Mario.jpg";
+const wrongAnswerIcon= "Bowser.jpg";
 const warningIcon = "boo.jpg";
 let questionCounter = 0;
 let score = 0;
