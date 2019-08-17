@@ -24,7 +24,7 @@ function renderQuizBox(){
   renderScore();
 }
 function renderScore(){
-  $(".progress-section .score-card").text(`${score}/${questionsCount}`);
+  $(".progress-section .score-card").text(`Score:${score}/${questionsCount}`);
 }
 function renderQuestionCount(){
   $(".progress-section .question-count").text(`Question ${questionCounter+1} of ${questionsCount}`);
